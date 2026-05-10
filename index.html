@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Daily - 每日AI资讯与创作</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🤖 AI Daily</h1>
+            <p class="subtitle">每日AI资讯、图片与音乐</p>
+            <p class="update-time">更新时间：<span id="update-time">加载中...</span></p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 新闻板块 -->
+        <section class="section">
+            <h2>📰 AI 新闻</h2>
+            <div id="news-list" class="news-grid">
+                <p class="loading">加载中...</p>
+            </div>
+        </section>
+
+        <!-- AI 图片板块 -->
+        <section class="section">
+            <h2>🎨 AI 图片</h2>
+            <div id="image-gallery" class="gallery">
+                <p class="loading">暂无图片</p>
+            </div>
+        </section>
+
+        <!-- AI 音乐板块 -->
+        <section class="section">
+            <h2>🎵 AI 音乐</h2>
+            <div id="music-list" class="music-grid">
+                <p class="loading">暂无音乐</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>由 Hermes Agent 自动更新 | 
+            <a href="https://github.com/lethiphuong36290-netizen/ai-daily" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
