@@ -1,28 +1,57 @@
 {
-    "updateTime": "2026-05-10T00:00:00Z",
-    "news": [
-        {
-            "category": "行业动态",
-            "title": "Hermes Agent 登顶 OpenRouter 全球模型榜首",
-            "description": "据 OpenRouter 排行榜显示，Hermes Agent 超越 GPT-4o 和 Claude 3.5，成为全球最受欢迎的 AI Agent 模型",
-            "source": "OpenRouter",
-            "date": "2026-05-10"
-        },
-        {
-            "category": "模型发布",
-            "title": "DeepSeek 发布 70B 参数开源模型，获 10 亿美元融资",
-            "description": "DeepSeek 宣布推出新一代开源大语言模型 DeepSeek-V4，参数规模达 700 亿，同时完成 10 亿美元 B 轮融资",
-            "source": "DeepSeek",
-            "date": "2026-05-10"
-        },
-        {
-            "category": "产品发布",
-            "title": "百度 ERNIE 5.1 发布，多模态能力大幅提升",
-            "description": "百度在 WAVE SUMMIT 2026 大会上正式发布 ERNIE 5.1，在多模态理解、数学推理和代码生成方面有显著提升",
-            "source": "百度",
-            "date": "2026-05-10"
-        }
-    ],
-    "images": [],
-    "music": []
+  "updateTime": "2026-05-10T14:26:06.747567Z",
+  "news": [
+    {
+      "category": "技巧与观点",
+      "title": "推出BlackBar菜单栏工具",
+      "description": "为@useblacksmith开发了BlackBar菜单栏工具，支持 macOS 系统监控与快捷操作",
+      "source": "X：Peter Steinberger (@steipete)",
+      "date": "2026-05-10",
+      "url": "https://x.com/steipete/status/2053430278077440060"
+    },
+    {
+      "category": "模型发布",
+      "title": "OpenCode x Ring 2.6 1T限时免费开放",
+      "description": "OpenCode x Ring 2.6 1T 限时免费开放，256K上下文、推理能力、纯文本模型，由 @AntLingAGI 和 @novita_labs 提供模型支持",
+      "source": "X：opencode (@opencode)",
+      "date": "2026-05-10",
+      "url": "https://x.com/opencode/status/2053393732221739498"
+    },
+    {
+      "category": "技巧与观点",
+      "title": "普通人如何用AI构建月入7万的一人公司：七个月行动路线图",
+      "description": "Anthropic联合创始人预测首个十亿美元一人公司即将出现，普通人利用AI实现月入1万美元（约7万人民币）更为切实可行。核心路径：选择具体可重复的付费任务、将系统提示词编写为详细岗位描述",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "date": "2026-05-10",
+      "url": "https://x.com/AYi_AInotes/status/2053317162664673306"
+    }
+  ],
+  "images": [
+    {
+      "title": "数字城市 · 赛博朋克夜景",
+      "description": "AI生成 - 未来数字城市霓虹夜景，赛博朋克美学",
+      "url": "images/img1_digital_city.jpg",
+      "date": "2026-05-10"
+    },
+    {
+      "title": "AI神经网络 · 抽象可视化",
+      "description": "AI生成 - 人工智能神经网络抽象可视化，光电路人形",
+      "url": "images/img2_ai_neural.jpg",
+      "date": "2026-05-10"
+    }
+  ],
+  "music": [
+    {
+      "title": "光的缝隙 · Ambient电子",
+      "description": "Chill Ambient风格 - 梦幻合成器电子乐，适合深夜聆听",
+      "url": "music/track1_chill_ambient.mp3",
+      "date": "2026-05-10"
+    },
+    {
+      "title": "黎明之旅 · Pop Rock",
+      "description": "Upbeat Pop Rock风格 - 激励人心的流行摇滚，追逐光的轨迹",
+      "url": "music/track2_pop_rock.mp3",
+      "date": "2026-05-10"
+    }
+  ]
 }

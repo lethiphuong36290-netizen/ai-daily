@@ -94,6 +94,12 @@ main {
 .category-行业动态 { background: #dc2626; }
 .category-论文研究 { background: #2563eb; }
 .category-技巧观点 { background: #d97706; }
+.category-技巧与观点 { background: #d97706; }
+.category-tip { background: #d97706; }
+.category-ai-models { background: #7c3aed; }
+.category-ai-products { background: #059669; }
+.category-industry { background: #dc2626; }
+.category-paper { background: #2563eb; }
 
 .news-title {
     font-size: 1.1rem;
