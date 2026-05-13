@@ -100,7 +100,7 @@ music_prompts = [
 for m in music_prompts:
     try:
         data = api_post(f"{BASE_URL}/v1/music_generation", {
-            "model": "music-2.6",
+            "model": "music-01",
             "prompt": m["prompt"],
             "lyrics": m["lyrics"]
         })
