@@ -1,29 +1,29 @@
 {
-  "updateTime": "2026-05-10T14:26:06.747567Z",
+  "updateTime": "2026-05-13T12:35:07Z",
   "news": [
     {
-      "category": "技巧与观点",
-      "title": "推出BlackBar菜单栏工具",
-      "description": "为@useblacksmith开发了BlackBar菜单栏工具，支持 macOS 系统监控与快捷操作",
-      "source": "X：Peter Steinberger (@steipete)",
-      "date": "2026-05-10",
-      "url": "https://x.com/steipete/status/2053430278077440060"
+      "category": "ai-products",
+      "title": "Miaoda应用与企业版上线，自生成代码占比90%",
+      "description": "Miaoda应用和Miaoda企业版现已发布，让更多开发者和企业能够使用我们的编程助手！\n\n最有趣的细节是什么？Miaoda应用90%的代码由Miaoda自身生成。\n\n编程助手正使按需定制软件具备商业可行性。截至目前，Miaoda生成的应用已服务超1000万用户，应用总价值达50亿元人民币。",
+      "source": "X：百度 Baidu (@Baidu_Inc)",
+      "date": "2026-05-13",
+      "url": "https://x.com/Baidu_Inc/status/2054511974172557463"
     },
     {
-      "category": "模型发布",
-      "title": "OpenCode x Ring 2.6 1T限时免费开放",
-      "description": "OpenCode x Ring 2.6 1T 限时免费开放，256K上下文、推理能力、纯文本模型，由 @AntLingAGI 和 @novita_labs 提供模型支持",
-      "source": "X：opencode (@opencode)",
-      "date": "2026-05-10",
-      "url": "https://x.com/opencode/status/2053393732221739498"
+      "category": "tip",
+      "title": "利用搜索垫图提升AI绘画准确性与质量",
+      "description": "当使用Codex等AI生成涉及生僻事实的配图时，可先让其搜索相关图片作为参考，再基于此生成新图。该方法能确保图像的真实性，同时生成符合比例要求的高清图片。例如，对于云南甲马符这类GPT可能不了解的主题，通过垫图后AI能准确绘制。",
+      "source": "X：歸藏 (@op7418)",
+      "date": "2026-05-13",
+      "url": "https://x.com/op7418/status/2054491392261632448"
     },
     {
-      "category": "技巧与观点",
-      "title": "普通人如何用AI构建月入7万的一人公司：七个月行动路线图",
-      "description": "Anthropic联合创始人预测首个十亿美元一人公司即将出现，普通人利用AI实现月入1万美元（约7万人民币）更为切实可行。核心路径：选择具体可重复的付费任务、将系统提示词编写为详细岗位描述",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "date": "2026-05-10",
-      "url": "https://x.com/AYi_AInotes/status/2053317162664673306"
+      "category": "tip",
+      "title": "在VS Code中集成多款AI模型开发",
+      "description": "通过@continuedev在VS Code中直接运行DeepSeek V4、GLM-5.1、Kimi K2.6等多款模型@SiliconFlowAI\n支持标签自动补全、AI对话编辑和智能体功能\n\n以下是3步设置指南 🧵⬇️",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "date": "2026-05-13",
+      "url": "https://x.com/SiliconFlowAI/status/2054484427192050041"
     }
   ],
   "images": [
