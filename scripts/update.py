@@ -9,20 +9,21 @@ from datetime import datetime
 # ========== 配置 ==========
 REPO_DIR = "/tmp/ai-daily"
 ENV_FILE = "/home/txf_1128/.hermes/.env"
+MINIMAX_API_KEY = None
 GITHUB_TOKEN = None
 
 # 加载 API Key
 with open(ENV_FILE) as f:
     for line in f:
-        if "MINIMAX_CN_API_KEY" in line and not line.startswith("#"):
-            GITHUB_TOKEN = line.split("=")[1].strip().strip('"')
-            break
-        if "GITHUB_TOKEN" in line and not line.startswith("#"):
-            GITHUB_TOKEN = line.split("=")[1].strip().strip('"')
-            break
+        if not line.strip() or line.startswith("#"):
+            continue
+        if "MINIMAX_CN_API_KEY" in line:
+            MINIMAX_API_KEY = line.split("=", 1)[1].strip().strip('"')
+        elif "GITHUB_TOKEN" in line:
+            GITHUB_TOKEN = line.split("=", 1)[1].strip().strip('"')
 
-BASE_URL = "https://api.minimaxi.com"
-HEADERS = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Content-Type": "application/json"}
+BASE_URL = "https://api.minimaxi.chat"
+HEADERS = {"Authorization": f"Bearer {MINIMAX_API_KEY}", "Content-Type": "application/json"}
 
 os.makedirs(f"{REPO_DIR}/music", exist_ok=True)
 os.makedirs(f"{REPO_DIR}/images", exist_ok=True)
@@ -37,6 +38,9 @@ def api_post(url, payload):
         return json.loads(resp.read())
 
 def git_commit_push(msg):
+    # 把 token 注入 git remote，避免交互式认证
+    remote_url = f"https://{GITHUB_TOKEN}@github.com/lethiphuong36290-netizen/ai-daily.git"
+    subprocess.run(["git", "remote", "set-url", "origin", remote_url], cwd=REPO_DIR, check=False)
     cmds = [
         ["git", "add", "-A"],
         ["git", "commit", "-m", msg],
